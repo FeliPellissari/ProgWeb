@@ -1,13 +1,12 @@
-import style from "./styles/styleHome.css";
+import style from "../styles/styleHome.css";
 import { Link } from "react-router-dom";
-import './App.css';
-import RoutesApp from './routes';
 
-function App() {
-  return (
-    <div className="App">
-      <RoutesApp />
-      <header className={style.cabecalho}>
+
+
+function Header(){
+    return(
+        <>
+            <header className={style.cabecalho}>
 
             <div className={style.logo}>Music Quiz</div>
 
@@ -44,8 +43,8 @@ function App() {
                 </ul>
             </nav>
         </header>
-    </div>
-  );
+        </>
+    );
 }
 
-export default App;
+export default Header;
