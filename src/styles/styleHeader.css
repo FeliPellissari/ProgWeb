@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Estilo para a barra de navegação */
+  nav {
+    background-color: #333;
+    overflow: hidden;
+    height: 55px;
+  }
+
+  /* Estilo para os links na barra de navegação */
+  nav li {
+    display: inline-flex;
+    margin: 10px;
+    margin-bottom: 0px;
+    
+    font-size: 150%;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    color: rgb(253, 139, 0);
+
+  }
+
+  /* Altera a cor do link quando o mouse passa sobre ele */
+  nav li:hover {
+    background-color:blanchedalmond;
+    color: black;
+  }
+
+  .logo{
+    font-size: 220%;
+  }
+    
+
+  div{
+    width: auto;
+    height: 50px;
+    padding-bottom: 5px;
+  }
+
+  div p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: bisque;
+  font-style: bold;
+}

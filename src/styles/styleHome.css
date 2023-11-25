@@ -45,11 +45,11 @@ body{
     display: none;
 }
 
-.nav_bar ul{
+.nav-bar ul{
     display: flex;
 }
 
-.nav_bar ul li a{
+.nav-bar ul li a{
     display: block;
     color: var(--cor-terciaria);
     font-size: 20px;
@@ -60,13 +60,13 @@ body{
 
 }
 
-.nav_bar ul li a:hover{
+.nav-bar ul li a:hover{
     color: var(--cor-secundaria);
     background: var(--cor-terciaria);
 
 }
 
-.nav_bar ul li a.active{
+.nav-bar ul li a.active{
     color: var(--cor-secundaria);
     background: var(--cor-terciaria);
 }
@@ -95,7 +95,7 @@ body{
         margin: 6px 0;
     }
 
-    .nav_bar{
+    .nav-bar{
         height: 0;
         position: absolute;
         top: 80px;
@@ -106,10 +106,10 @@ body{
         transition: 0.5s;
         overflow: hidden;
     }
-    .nav_bar.active{
+    .nav-bar.active{
         height: 450px;
     }
-    .nav_bar ul{
+    .nav-bar ul{
         display: block;
         width: fit-content;
         margin: 80px auto 0 auto;
@@ -118,29 +118,41 @@ body{
         opacity: 0;
     }
 
-    .nav_bar.active ul{
+    .nav-bar.active ul{
         opacity: 1;
     }
 
-    .nav_bar ul li a{
+    .nav-bar ul li a{
         margin-bottom: 12px;
     }
 }
 
 .container{
-    margin-top: 20vh;
+    margin: 1vh;
     display: flex;
     color: var(--cor-terciaria);
     flex-direction: column;
     align-items: center;
 }
 
+main{
+    margin: 5vh;
+}
+
 .container__botaoPlay{
+    margin: 15px;
     background: transparent;
+    height: 300px;
+    width: 300px;
     border: none;
     cursor: pointer;
     border-radius: 360px;
     transition: 0.3s;
+}
+
+img{
+    width: 100%;
+    height: 100%;
 }
 
 .container__botaoPlay:hover{
@@ -167,7 +179,7 @@ body{
     transition: 0.4s, top 0.4s;
 }
 
-.open_popup{
+.open-popup{
     visibility: visible;
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
@@ -190,3 +202,4 @@ body{
     padding: 3px;
     cursor: pointer;
 }
+

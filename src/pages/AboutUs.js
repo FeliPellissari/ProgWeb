@@ -1,5 +1,6 @@
 import style from "../styles/styleAbout.css";
-import { Link } from "react-router-dom";
+import foto_us from "../assets/about.png";
+
 import Header from "./Header";
 
 
@@ -10,15 +11,15 @@ function AboutUs(){
             <Header />
 
 
-            <main class="container">    
-                <section class="container__conteudo">
+            <main className={style.container}>    
+                <section className="container__conteudo">
                     <h1> Quem somos nós?</h1>     
                     <p> Olá! Somos Felipe, Vinicius e Ligia, estudantes de Engenharia de Software na Universidade Federal de Mato Grosso do Sul,
                         e estamos desenvolvendo este projeto para a matéria de Programação pra Web mestrada pelo nosso professor Ricardo Kondo
                     </p>
                 </section>
 
-                <img class="container__img" src="./assets/about.png" alt="aboutimg"/>
+                <img className="container__img" src={foto_us} alt=""/>
              </main>
         </>
     );
