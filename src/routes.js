@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Perguntas from "./pages/Perguntas";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
+import Ranking from "./pages/Ranking";
+import EsqueciSenha from "./pages/EsqueciSenha";
 
 
 
@@ -16,6 +18,8 @@ function RoutesApp() {
                 <Route path="/perguntas" element={<Perguntas />}/>
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/ranking" element={<Ranking />} />
+                <Route path="/esqueciMinhaSenha" element={<EsqueciSenha />} />
             </Routes>
         </BrowserRouter>
     );

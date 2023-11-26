@@ -48,6 +48,7 @@ const Signup = () => {
                                 Endereço de email
                             </label>
                             <input
+                                className='container__login__info__campo_texto'
                                 type="email"
                                 label="Email address"
                                 value={email}
@@ -55,13 +56,12 @@ const Signup = () => {
                                 required                                    
                                 placeholder="Endereço de email"                                
                             />
-                        </div>
 
-                        <div className="caixa">
                             <label htmlFor="password">
                                 Nova senha
                             </label>
                             <input
+                                className='container__login__info__campo_texto'
                                 type="password"
                                 label="Create password"
                                 value={password}
@@ -69,14 +69,18 @@ const Signup = () => {
                                 required                                 
                                 placeholder="Senha"              
                             />
-                        </div>                                             
-                        
+
+
+                                                    
                         <button
+                            className='container__login__botao'
                             type="submit" 
                             onClick={onSubmit}                        
                         >  
-                            Criar conta                              
+                            Criar                             
                         </button>
+                        </div>                                             
+
                                                                      
                     </form>
                    

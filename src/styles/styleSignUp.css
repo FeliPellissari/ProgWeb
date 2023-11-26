@@ -19,8 +19,9 @@ form {
 .caixa {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Espaçamento entre label e input */
+    gap: 1vh; /* Espaçamento entre label e input */
     margin-bottom: 80px;
+    align-items: center;
 }
 
 .caixa label, .caixa input {
@@ -33,3 +34,31 @@ button {
     margin-bottom: 30px;
 }
 
+
+.container__login__info__campo_texto{
+    width: 300px;
+    height: 30px;
+    border: 5px solid;
+    border-color: var(--cor-borda);
+    border-radius: 5px;
+    background-color: var(--cor-terciaria);
+    font-size: 1.2vw;
+}
+
+
+.container__login__botao{
+    width: 110px;
+    height: 35px;
+    font-size: 0.5rem;
+    border: 5px solid;
+    border-color: var(--cor-borda);
+    background-color: var(--cor-terciaria);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container__login__botao:hover{
+    background-color: var(--cor-hover);
+    border-color: var(--cor-hoverBorda);
+    transition: 0.5s;
+}

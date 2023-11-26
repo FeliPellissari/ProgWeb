@@ -1,36 +1,51 @@
+import { useState } from 'react';
 import style from '../styles/styleHeader.css';
 import { Link } from "react-router-dom";
 
 
 
 function Header(){
+
+
+    const [navBarActive, setNavBarActive] = useState(false);
+
+    const handleHamburgerClick = () => {
+      setNavBarActive(!navBarActive);
+    };
+
+
     return(
         <>
             <header className="cabecalho">
 
             <div> <p className="logo">Music Quiz</p></div>
 
+            <div class="hamburger" onClick={handleHamburgerClick}>
+            <div class="linha"></div>
+            <div class="linha"></div>
+            <div class="linha"></div>
+        </div>
 
             <nav className="nav_bar">
                 <ul>
                     <li>
-                        <Link className="a" to="/">Home</Link>
+                            <Link to="/" >Home</Link>
                     </li>
 
                     <li>
-                        <Link className="a" to="/sobre">About Us</Link>
+                            <Link to="/sobre">About Us</Link>
                     </li>
 
                     <li>
-                        <Link className="a" to="/ranking">Ranking</Link>
+                        <Link to="/ranking">Ranking</Link>
                     </li>
 
                     <li>
-                        <Link className="a" to="/login">Login</Link>
+                        <Link to="/login">Login</Link>
                     </li>
 
                     <li>
-                        <Link className="a" to="/signup">Sign Up</Link>
+                        <Link to="/signup">Sign Up</Link>
                     </li>
                 </ul>
             </nav>
