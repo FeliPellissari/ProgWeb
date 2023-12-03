@@ -15,6 +15,6 @@ Download this repository and install the dependecies below:
 - firebase,
 - execute "npm start" on terminal (be sure you're in the rigth diretory)
 
-![Apresentation Video](https://github.com/FeliPellissari/QuizMusical-ProgWeb/blob/main/apresentacao.mp4)
+![Apresentation Video](https://github.com/FeliPellissari/QuizMusical-ProgWeb/blob/main/ApresentationVideo.gif)
 
 We are working in some features, like a scoreboarding in Ranking tab that is static now, but we hope that soon we will be able to develop it. The project may have some bugs or validation's problems.
