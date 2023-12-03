@@ -1,7 +1,7 @@
 # This is an assignment for Web Programming class
 
 Project developed by me, Vinicius Wagner and Lígia Nogueira, students of Software Engineering. We have been developing the entire project for two months during the Web Programming class, taught by Ricardo Kondo, on FACOM-UFMS. With the Ricardos's support, it consists in a quiz game application with users.
-This is a quiz where you click on Play button, choose a music genrer and after that is showed to you a song's verse and two options with a song name and singer, you need pick up the correct.
+This is a quiz where you click on Play button, choose a music genrer and after that is showed to you a song's verse and two options with a song name and singer, you need to pick up the correct.
 
 ## How did we build it?
 
